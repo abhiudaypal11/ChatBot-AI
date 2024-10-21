@@ -8,12 +8,12 @@
 
 .wrapper {
   flex: 1;
-  overflow-y: scroll; /* Controls vertical scrolling */
+  overflow-y: scroll; 
   width: 100%;
   display: flex;
   justify-content: center;
 
-  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  
   ::-webkit-scrollbar {
     display: none;
   }

@@ -16,7 +16,7 @@ const NewPrompt = ({ data = { history: [] } }) => {
     aiData: {},
   });
 
-  // Ensure history is always an array
+
   const history = Array.isArray(data.history) ? data.history : [];
 
   const chat = model.startChat({
